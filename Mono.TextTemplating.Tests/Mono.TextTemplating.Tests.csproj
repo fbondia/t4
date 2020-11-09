@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../netfx.props" />
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFrameworks>net472</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\TextTemplating.snk</AssemblyOriginatorKeyFile>
     <IsPackable>false</IsPackable>
